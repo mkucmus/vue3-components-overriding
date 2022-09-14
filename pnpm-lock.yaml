@@ -5,6 +5,9 @@ importers:
   .:
     specifiers:
       execa: ^6.1.0
+      pnpm: ^7.11.0
+    dependencies:
+      pnpm: 7.11.0
     devDependencies:
       execa: 6.1.0
 
@@ -935,6 +938,12 @@ packages:
       mlly: 0.5.14
       pathe: 0.3.7
     dev: true
+
+  /pnpm/7.11.0:
+    resolution: {integrity: sha512-cxh4TfCE8L4ZbLBN72kTGKTYP7X08nrIzoQ2rQCKihAcIHAdNIgsk4bEJyE1xHjE+bNJt9skwr7aJv3LpvUawQ==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: false
 
   /postcss/8.4.16:
     resolution: {integrity: sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==}
