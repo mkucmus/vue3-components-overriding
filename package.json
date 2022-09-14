@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev"
+    "dev": "node scripts/dev.js"
   },
   "keywords": [],
   "author": "",
