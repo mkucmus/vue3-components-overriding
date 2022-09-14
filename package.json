@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "pnpm --filter vue3 dev"
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
   },
   "keywords": [],
   "author": "",
