@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "vue": "^3.2.37",
-    "@shopware/components": "workspace:^0.0.0"
+    "@shopware/components": "workspace:*"
   }
 }

@@ -47,7 +47,7 @@ importers:
 
   packages/vue-cms-base-plugin:
     specifiers:
-      '@shopware/components': workspace:^0.0.0
+      '@shopware/components': workspace:*
       typescript: ^4.6.4
       vite: ^3.1.0
       vue: ^3.2.37
