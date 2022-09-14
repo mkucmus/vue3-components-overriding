@@ -1,0 +1,14 @@
+{
+  "name": "cms-override",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./scripts/dev.js",
+    "build": "node ./scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

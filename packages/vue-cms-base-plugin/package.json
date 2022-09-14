@@ -1,0 +1,21 @@
+{
+  "name": "@shopware/vue-cms-base-plugin",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "module": "./dist/vue-cms-base-plugin.es.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "@shopware/components": "workspace:^0.0.0"
+  }
+}
