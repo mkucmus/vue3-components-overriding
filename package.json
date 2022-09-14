@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./scripts/dev.js",
+    "dev": "build && ./scripts/dev.js",
     "build": "node ./scripts/build.js"
   },
   "keywords": [],
