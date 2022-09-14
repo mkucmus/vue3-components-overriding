@@ -8,6 +8,7 @@ importers:
       pnpm: ^7.11.0
       rimraf: ^3.0.2
       turbo: ^1.4.6
+      turbo-linux-64: ^1.4.6
       typescript: ^4.6.4
       vite: ^3.1.0
     dependencies:
@@ -16,6 +17,7 @@ importers:
       execa: 6.1.0
       rimraf: 3.0.2
       turbo: 1.4.6
+      turbo-linux-64: 1.4.6
       typescript: 4.8.3
       vite: 3.1.0
 
@@ -1127,7 +1129,6 @@ packages:
     os: [linux]
     requiresBuild: true
     dev: true
-    optional: true
 
   /turbo-linux-arm/1.4.6:
     resolution: {integrity: sha512-Uh/V3oaAdhyZW6FKPpKihAxQo3EbvLaVNnzzkBmBnvHRkqoDJHhpuG72V7nn8pzxVbJ1++NEVjvbc2kmKFvGjg==}
