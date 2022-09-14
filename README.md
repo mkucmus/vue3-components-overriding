@@ -22,6 +22,12 @@ Sometimes, there is a need to replace only the internal component (`CmsElementTe
 </CmsImage>
 ```
 
+## TL;DR
+
+Component overriding mechanism to work with external dependency and local components. No matter if it a child component or a main one.
+
+To check this out, please go to the `templates/vue3/src/components/index.ts` and edit exports.
+
 ## Solution
 
 One of the possibilities is to leave the component resolving to the project context. It means, there is no need to import any component, even internal (child), leave it in the `<template>` under its name. The advantage of the solution is that the compiled library (esm lib) contains a `resolveComponent` method from the Vue runtime library.
